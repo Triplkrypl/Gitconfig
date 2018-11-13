@@ -4,7 +4,7 @@
 	ch = checkout
 	st = stash
 	b = branch
-	g = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) %C(bold yellow)%ai% %C(reset)%C(bold green)%d%C(reset) %C(white)%s%C(reset) %C(cyan)%an%C(magenta) <%ae>%C(reset)' --all
+	g = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) %C(bold yellow)%ai% %C(reset)%C(bold green)%d%C(reset) %C(white)%s%C(reset) %C(magenta)<%ae>%C(reset)' --all
 [core]
 	pager = less -r
 [user]
