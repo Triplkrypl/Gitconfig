@@ -7,6 +7,7 @@
 	g = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) %C(bold yellow)%ai% %C(reset)%C(bold green)%d%C(reset) %C(white)%s%C(reset) %C(magenta)<%ae>%C(reset)' --all
 [core]
 	pager = less -r
+	autocrlf = false
 [user]
 	email = somemail@somehost
 	name = someone
