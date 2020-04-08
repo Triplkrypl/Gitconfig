@@ -13,3 +13,5 @@
 	name = someone
 [push]
 	default = simple
+[fetch]
+    prune = true
